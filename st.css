@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 100px;
+	background: #f7f7f7;
+	font-size: 15px;
+}
+
+.sign_cont {
+	max-width: 300px;
+}
+
+input {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+}
+
+span {
+	color: #939598;
+	font-size: 16px;
+	letter-spacing: 0.16px;
+	line-height: 30px;
+	letter-spacing: 0.16px;
+	line-height: 27px;
+}
+
+input:focus {
+	border: 1px solid green;
+}
+
+
+
+button {
+
+	margin-top: 15px;
+    cursor: pointer;
+	display: inline-grid;
+	text-align: center;
+	background: #010101;
+	color: #ffffff;
+	font-family: Ubuntu;
+	line-height: 35px;
+	width: 100%;
+	letter-spacing: 0.28px;
+	border: none;
+
+}
+
+button:hover {
+	transition: 1s;
+	background: green;
+	color: white;
+}
+
+.post_button {
+	width: 20%;
+}

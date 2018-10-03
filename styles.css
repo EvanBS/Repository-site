@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+	padding: 100px;
+	font-size: 30px;
+	background: #f7f7f7;
+}
+
+
+.log_sign_ref {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid red;
+}
+
+.ref {
+	float: right;
+}
+
+a {
+	text-decoration: none;
+}
+
+form {
+    margin: 20px auto;
+}
+
+img {
+	max-height: 500px;
+	max-width:  500px;
+}
+
+textarea {
+	margin-top: 20px;
+	box-shadow: 0 0 5px 1px #d2d2d2;
+	background-color: #ffffff;
+}
+
+.post_cont {
+	font-size: 20px;
+	margin: 20px;
+   	display: inline-grid;
+   	grid-gap: 50px;
+   	grid-template-columns: 1fr;
+   	box-shadow: 0 0 5px 1px #d2d2d2;
+	background-color: #ffffff;
+}
+
+.elem {
+
+	display: inline-block;
+	margin: 20px;
+}
+
+.cntr {
+	vertical-align: center;
+}
+
+input {
+	margin-top: 15px;
+    cursor: pointer;
+	display: inline-grid;
+	text-align: center;
+	background: #ffffff;
+	color: black;
+	line-height: 35px;
+	width: 20%;
+	letter-spacing: 0.28px;
+	border: 1px solid black;
+}
+
+.select_alb {
+	margin-top: 15px;
+    cursor: pointer;
+	display: inline-grid;
+	text-align: center;
+	background: #ffffff;
+	color: black;
+	line-height: 35px;
+	width: 20%;
+	letter-spacing: 0.28px;
+	border: 1px solid black;
+}
+
+.sbmt:hover {
+	transition: 1s;
+	background: green;
+	color: white;
+}
+
+.right-footer-content:hover {
+	cursor: pointer;
+}
